@@ -11,7 +11,11 @@
     "url": "umaibo"
   },
   {
-    "itemphotos": ["kabayakisan01.jpg", "kabayakisan02.jpg", "kabayakisan03.jpg"],
+    "itemphotos": [
+      "kabayakisan01.jpg",
+      "kabayakisan02.jpg",
+      "kabayakisan03.jpg"
+    ],
     "name": "蒲焼さん太郎",
     "price": 15,
     "state": true,
