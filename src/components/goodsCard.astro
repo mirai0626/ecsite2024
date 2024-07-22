@@ -1,9 +1,18 @@
 ---
-const { href, title, thumbnail,price } = Astro.props;
+const { href, title, thumbnail , price, state } = Astro.props;
+let statetext;
+console.log(state);
+if(state === true){
+  statetext = "soldout";
+}else{
+    statetext = "none";
+
+}
 ---
-<article>
+<article class="card">
 <a href={href}>
-    <img src=`/images/${thumbnail}` alt={title} />
+    <img src=`/11_shimada/images/${thumbnail}` alt={title} />
+    <p class="soldout" data-id={statetext}>soldout</p>
   <h2>{title}</h2>
     <p>{price}</p>
 

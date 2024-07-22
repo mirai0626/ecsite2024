@@ -1,5 +1,5 @@
 ---
-import Layout from "../../layouts/Layout.astro";
+import Layout from "../../layouts/goodsLayout.astro";
 import { getCollection } from "astro:content";
 
 interface Entry {
@@ -9,7 +9,7 @@ interface Entry {
 
 export async function getStaticPaths() {
   const goodsPages = await getCollection("goods");
-  console.log(goodsPages);
+  // console.log(goodsPages);
   return goodsPages.map((entry) => ({
     params: { slug: entry.slug },
     props: { entry },
@@ -19,7 +19,6 @@ export async function getStaticPaths() {
 const { entry } = Astro.props as { entry: Entry };
 const { Content } = await entry.render();
 ---
-
 <Layout>
 <Content />
 </Layout>
