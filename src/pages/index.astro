@@ -17,7 +17,7 @@ console.log(workPages);
       </div>
 
       <div class="cart">
-        <img class="" src="/11_shimada/images/cart-shopping-solid.svg" alt="">
+        <img class="cart-pic" src="/11_shimada/images/cart-shopping-solid.svg" alt="">
       </div>
 <script is:inline>
 document.addEventListener("DOMContentLoaded", function () {
@@ -42,10 +42,10 @@ document.addEventListener("DOMContentLoaded", function () {
           });
 
           // ボタンのテキストを切り替える
-          if (loadMoreButton.textContent === "さらに表示") {
-            loadMoreButton.textContent = "表示を減らす";
+          if (loadMoreButton.textContent === "READ MORE") {
+            loadMoreButton.textContent = "CLOSE";
           } else {
-            loadMoreButton.textContent = "さらに表示";
+            loadMoreButton.textContent = "READ MORE";
           }
         });
       });
