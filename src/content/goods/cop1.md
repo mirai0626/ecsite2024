@@ -15,9 +15,9 @@ maker:
 <div class="img-switcher">
       <img id="mainImg" class="main-img" src="/11_shimada/images/dean.png" alt="犬1" />
       <div class="thumbnails">
-        <button class="thumb-btn active"><img class="thumb-img" src="/11_shimada/images/cap.png" alt="犬1" /></button>
-        <button class="thumb-btn"><img class="thumb-img" src="/11_shimada/images/soko.png" alt="犬2" /></button>
-        <button class="thumb-btn"><img class="thumb-img" src="/11_shimada/images/ura.png" alt="犬3" /></button>
+        <button class="thumb-btn active"><img class="thumb-img" src="/11_shimada/images/dean.png" alt="犬1" /></button>
+        <button class="thumb-btn"><img class="thumb-img" src="/11_shimada/images/dean_usiro.png" alt="犬2" /></button>
+        <button class="thumb-btn"><img class="thumb-img" src="/11_shimada/images/dean_ura.png" alt="犬3" /></button>
       </div>
     </div>
 

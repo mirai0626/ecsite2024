@@ -165,6 +165,51 @@ footer {
 .active {
   opacity: 0.5;
 }
+.load-more{
+  font-family: 'Zen Maru Gothic', serif;
+  color:#707070;
+  border-radius:0;
+  border:0.5px solid #707070;
+  margin:100px 0;
+    transition:.5s;
+
+}
+
+.load-more:hover{
+  background-color:#707070;
+  color:#fff;
+  transition:.5s;
+}
+
+.card-container{
+  position:relative;
+}
+
+.cart{
+  position:absolute;
+  top:30px;
+  right:1%;
+  background-color:#fff;
+  width:80px;
+  height:80px;
+  border-radius:50px;
+  text-align:center;
+      transition:.5s;
+
+
+    &:hover{
+    box-shadow:0px 0px 12px 4px #326684;
+    transition:.5s;
+  }
+
+
+  &-pic{
+    width:40px;
+    margin-top:30%;
+  }
+
+
+}
 
 
 //---------------------------------------------------------
