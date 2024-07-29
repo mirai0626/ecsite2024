@@ -1,0 +1,5 @@
+ECサイト名：Observe mg
+
+サーバー url：https://mirai-0626.moo.jp/11_shimada/
+
+Github url：https://github.com/mirai0626/ecsite2024
